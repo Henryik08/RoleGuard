@@ -13,7 +13,7 @@ function ProtectedLayout({children}: {children: React.ReactNode}) {
     <>
       <NAvbar/>
       {children}
-    </>
+    </> 
   );
 }
 
