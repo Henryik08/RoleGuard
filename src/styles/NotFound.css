@@ -1,0 +1,24 @@
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  gap: 0.5rem;
+}
+
+.not-found-code {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: #0f0f0f;
+  line-height: 1;
+}
+
+.not-found-message {
+  font-size: 1.1rem;
+  color: #888;
+  font-weight: 400;
+}

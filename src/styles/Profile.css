@@ -1,0 +1,50 @@
+.profile {
+  padding: 2.5rem;
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+.profile h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #0f0f0f;
+  margin-bottom: 1.5rem;
+}
+
+.profile-card {
+  border: 1px solid #e5e5e5;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 12px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-sizing: border-box;
+}
+
+.profile-card p {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: #333;
+}
+
+.profile-card strong {
+  color: #0f0f0f;
+  font-weight: 600;
+}
+
+.profile-back-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.profile-back-link:hover {
+  color: #0f0f0f;
+}

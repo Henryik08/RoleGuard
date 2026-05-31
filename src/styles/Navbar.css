@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.navbar-links a {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.navbar-links a:hover {
+  background: #f2f2f2;
+  color: #0f0f0f;
+}
+
+.navbar-user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-user span {
+  font-size: 0.875rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.logout-btn {
+  padding: 0.4rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: transparent;
+  color: #0f0f0f;
+  border: 1px solid #d0d0d0;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.logout-btn:hover {
+  background: #0f0f0f;
+  color: #fff;
+  border-color: #0f0f0f;
+}
