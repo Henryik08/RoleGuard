@@ -1,0 +1,51 @@
+.settings {
+  padding: 2.5rem;
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+.settings h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #0f0f0f;
+  margin-bottom: 0.4rem;
+}
+
+.settings-subtitle {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0 0 2rem;
+}
+
+.settings-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #f9f9f9;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.settings-option:hover {
+  background: #f0f0f0;
+  border-color: #ccc;
+}
+
+.settings-option input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  accent-color: #0f0f0f;
+  cursor: pointer;
+}
+
+.settings-option span {
+  font-size: 0.9375rem;
+  color: #222;
+  font-weight: 500;
+}

@@ -1,0 +1,138 @@
+.dashboard {
+  padding: 2.5rem;
+  max-width: 860px;
+  margin: 0 auto;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+.dashboard h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #0f0f0f;
+  margin-bottom: 2rem;
+}
+
+.dashboard h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.25rem;
+}
+
+/* --- Admin --- */
+.admin-section {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.75rem;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.admin-actions button {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.admin-actions button:hover {
+  background: #0f0f0f;
+  color: #fff;
+  border-color: #0f0f0f;
+}
+
+/* --- Editor --- */
+.editor-section {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.editor-section textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  font-size: 0.9375rem;
+  font-family: 'DM Mono', 'Courier New', monospace;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.editor-section textarea:focus {
+  border-color: #0f0f0f;
+}
+
+.publish-btn {
+  align-self: flex-start;
+  padding: 0.55rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #0f0f0f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.publish-btn:hover {
+  opacity: 0.8;
+}
+
+/* --- Viewer --- */
+.viewer-section {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.75rem;
+}
+
+/* --- Shared Table --- */
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.dashboard-table th {
+  text-align: left;
+  padding: 0.6rem 0.9rem;
+  background: #efefef;
+  font-weight: 600;
+  color: #555;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.dashboard-table td {
+  padding: 0.65rem 0.9rem;
+  border-top: 1px solid #e8e8e8;
+  color: #222;
+}
+
+.dashboard-table tr:hover td {
+  background: #f3f3f3;
+}
